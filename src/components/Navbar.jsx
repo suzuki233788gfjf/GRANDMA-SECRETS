@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import LOGO from '../assets/logo.png'
 
 const LINKS = ['Produits', 'Notre Histoire', 'Témoignages', 'Contact']
 
@@ -11,6 +12,7 @@ export default function Navbar() {
     window.addEventListener('scroll', onScroll)
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
+
 
   const toId = (label) =>
     label
@@ -29,13 +31,12 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" className="font-serif text-xl text-white tracking-wide no-underline">
           <img
-                    src={"../../public/assets/WhatsApp Image 2026-04-25 at 17.18.53.jpeg"}
+                    src={LOGO}
                     alt="Gamme complète Grand'ma Secrets"
                     className="w-10 rounded-xl block"
                   />
         </a>
 
-        {/* Desktop links */}
         <div className="hidden md:flex gap-8">
           {LINKS.map((l) => (
             <a
@@ -47,6 +48,7 @@ export default function Navbar() {
             </a>
           ))}
         </div>
+
 
         {/* CTA */}
         <a
