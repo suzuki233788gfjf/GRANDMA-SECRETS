@@ -33,7 +33,7 @@ export default function Navbar() {
           <img
                     src={LOGO}
                     alt="Gamme complète Grand'ma Secrets"
-                    className="w-10 rounded-xl block"
+                    className="w-20 rounded-xl block"
                   />
         </a>
 
