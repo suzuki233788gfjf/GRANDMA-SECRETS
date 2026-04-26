@@ -106,7 +106,7 @@ export default function Footer() {
         className="flex flex-wrap justify-between gap-4 text-[11px] text-white/30 pt-6"
         style={{ borderTop: '1px solid rgba(255,255,255,0.07)' }}
       >
-        <span>© 2024 Grand'ma Secrets. Tous droits réservés.</span>
+        <span>© 2026. Tous droits réservés.</span>
         <span>Fait avec ♥ au Cameroun</span>
       </div>
     </footer>

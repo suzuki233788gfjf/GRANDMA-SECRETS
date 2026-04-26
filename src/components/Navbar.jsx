@@ -28,7 +28,11 @@ export default function Navbar() {
       <div className="flex items-center justify-between h-[70px]">
         {/* Logo */}
         <a href="#" className="font-serif text-xl text-white tracking-wide no-underline">
-          Grand<span className="text-gold">'ma</span> Secrets
+          <img
+                    src={"../../public/assets/WhatsApp Image 2026-04-25 at 17.18.53.jpeg"}
+                    alt="Gamme complète Grand'ma Secrets"
+                    className="w-10 rounded-xl block"
+                  />
         </a>
 
         {/* Desktop links */}
